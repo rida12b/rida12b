@@ -1,68 +1,25 @@
-# 👋 Salut, moi c’est Rida
+### Rida Boualam — AI Engineer
 
-🎯 **Développeur IA / Backend**  
-Je crée des solutions **IA appliquées à la productivité et à la data**, de la conception jusqu’au déploiement.
+I design, build and **operate agentic RAG systems in production** — retrieval that people trust
+enough to put in front of a client.
 
----
+Right now I work on a production RAG platform used by consultants to search ~1,700 project
+references in natural language: LangGraph agents, hybrid retrieval, an MCP integration, and an
+evaluation harness that keeps it honest. I've owned it end to end — from SharePoint ingestion to
+serving — and taken it from a 56% eval score to 97.5%, with retrieval recall@10 up ~92%.
 
-## 🚀 Stack & compétences
+**What I focus on**
+- **Retrieval quality** — hybrid search (lexical + vector + metadata) fused with Reciprocal Rank Fusion
+- **LLM agents** — LangGraph ReAct, tool design, Model Context Protocol (MCP)
+- **Evaluation & observability** — SQL-grounded ground truth, Ragas-style judges, Langfuse tracing
+- **Shipping & operating** — Azure, Docker, ingestion → production, diagnosing before fixing
 
-- **Langages :**  
-  ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)  
-  ![SQL](https://img.shields.io/badge/SQL-Postgres-informational?logo=postgresql)  
-  ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)  
-
-- **Frameworks :**  
-  ![FastAPI](https://img.shields.io/badge/FastAPI-Ready-green?logo=fastapi)  
-  ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)  
-  ![LangChain](https://img.shields.io/badge/LangChain-Agents-blueviolet)  
-  ![LangGraph](https://img.shields.io/badge/LangGraph-Orchestration-purple)  
-
-- **DevOps :**  
-  ![Docker](https://img.shields.io/badge/Docker-Deployed-blue?logo=docker)  
-  ![GitHub Actions](https://img.shields.io/badge/CI/CD-Automated-lightgrey?logo=githubactions)  
-  ![VPS](https://img.shields.io/badge/VPS-Linux-success?logo=linux)  
-
-- **IA & Data :**  
-  ![OpenAI](https://img.shields.io/badge/OpenAI-API-4b0082?logo=openai)  
-  ![Gemini](https://img.shields.io/badge/Gemini-LLM-orange?logo=google)  
-  ![Proxycurl](https://img.shields.io/badge/Proxycurl-Scraping-blue)  
-  ![Pandas](https://img.shields.io/badge/Pandas-ETL-lightblue?logo=pandas)  
+**Stack** — Python · FastAPI · LangGraph · PostgreSQL / pgvector · Azure OpenAI · MCP · Docker
 
 ---
 
-## 🛠️ Projets phares
+📓 **[Engineering journal → github.com/rida12b/ai-engineering-log](https://github.com/rida12b/ai-engineering-log)**
+How I actually built and debugged a production agentic RAG system — architecture, the trade-offs I
+made, the hard bugs I root-caused, and the measured results. Kept as a running, dated log.
 
-- **Berzerk** – Dashboard IA pour analyser les news financières et générer des signaux de trading  
-  ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) 
-  ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi) 
-  ![Docker](https://img.shields.io/badge/Docker-Deployed-blue?logo=docker)  
-  🔗 [Voir le repo](https://github.com/rida12b/Berzerk)
-
-- **Scoring LinkedIn** – Analyse automatique de profils pro via Proxycurl + Gemini  
-  ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit) 
-  ![Gemini](https://img.shields.io/badge/Gemini-LLM-orange?logo=google)  
-  🔗 [Voir le repo](https://github.com/rida12b/Scoring_linkedin)
-
-- **BTC Analyzer** – Prédiction de mouvements Bitcoin à partir de données historiques et d’indicateurs techniques  
-  ![Python](https://img.shields.io/badge/Python-ML-blue?logo=python) 
-  ![Pandas](https://img.shields.io/badge/Data-ETL-lightblue?logo=pandas)  
-  🔗 [Voir le repo](https://github.com/rida12b/projet_complet_btc_analyse)
-
-- **Data Extraction Pipeline** – Pipeline multi-sources (Parquet/ZIP/SQL Azure) pour centraliser la donnée  
-  ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) 
-  ![ETL](https://img.shields.io/badge/Data-Pipeline-yellow)  
-  🔗 [Voir le repo](https://github.com/rida12b/data-extraction-pipeline)
-
----
-
-## 📊 Aperçu GitHub
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rida12b&layout=compact&theme=tokyonight)
-
----
-
-## 📫 Contact
-
-- ✉️ [Email](mailto:tonmail@gmail.com)  
-- 💼 [LinkedIn](https://linkedin.com/in/tonprofil)  
+Targeting **Forward Deployed / AI Engineer** roles · based in France 🇫🇷
