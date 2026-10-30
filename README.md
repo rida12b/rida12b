@@ -3,10 +3,11 @@
 I design, build and **operate agentic RAG systems in production** — retrieval that people trust
 enough to put in front of a client.
 
-Right now I work on a production RAG platform used by consultants to search ~1,700 project
-references in natural language: LangGraph agents, hybrid retrieval, an MCP integration, and an
-evaluation harness that keeps it honest. I've owned it end to end — from SharePoint ingestion to
-serving — and taken it from a 56% eval score to 97.5%, with retrieval recall@10 up ~92%.
+Right now I work on a production search platform used by consultants to find ~1,700 project
+references in natural language: LangGraph agents, hybrid retrieval, MCP servers for Dust and
+OpenWebUI, and evaluation harnesses that keep it honest. On a golden set whose answers are
+computed exactly in SQL, the production RAG found 39% of the right references and could not say
+how many there were; the agent-navigable wiki I added finds 100%, with the exact total.
 
 **What I focus on**
 - **Retrieval quality** — hybrid search (lexical + vector + metadata) fused with Reciprocal Rank Fusion
@@ -17,9 +18,5 @@ serving — and taken it from a 56% eval score to 97.5%, with retrieval recall@1
 **Stack** — Python · FastAPI · LangGraph · PostgreSQL / pgvector · Azure OpenAI · MCP · Docker
 
 ---
-
-📓 **[Engineering journal → github.com/rida12b/ai-engineering-log](https://github.com/rida12b/ai-engineering-log)**
-How I actually built and debugged a production agentic RAG system — architecture, the trade-offs I
-made, the hard bugs I root-caused, and the measured results. Kept as a running, dated log.
 
 Targeting **Forward Deployed / AI Engineer** roles · based in France 🇫🇷
